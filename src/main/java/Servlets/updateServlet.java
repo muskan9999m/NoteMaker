@@ -42,6 +42,7 @@ public class updateServlet extends HttpServlet {
 			n.setContent(content);
 			n.setTitle(title);
 			n.setDateAdded(new Date());
+			//done
 			s.saveOrUpdate(n);
 			
 			t.commit();
